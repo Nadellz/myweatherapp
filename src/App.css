@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  
+  background-color: #353b47;
+}
+
+.App{
+  
+  max-width: 1080px;
+  margin: auto;
+  
+}
+
+.app-container{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+
+}
+
+.bigHeader{
+  color: white;
+  margin: 1em;
+}
+
+
+
+.navbar{
+  margin : 0.5em 0.5em 2em 0.5em;
+}
+.navbar a {
+  color: white;
+  text-decoration: none; 
+  font-size: larger;
+  font-weight: 600;
+}
+
+.navbar .local-time{
+  color: white;
+   
+  font-size: larger;
+  font-weight: 600;
+}
+
+.navbar img{
+  margin-right: 5%;
+}
+
+.navbar .welcome-message{
+    font-weight:600;
+    color:white;
+  
+}
+
+
+footer .copyright{
+  color: white;
+  margin-bottom: .3rem;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+ 
+  .navbar{
+    flex-direction: column;
+  }
+
+  .navbar .welcome-message{
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+  
+}
+
+ .current-city .bot {
+  flex-direction: column;
+  
+ }
+
+ .current-city .bot .degree {
+  text-align: center;
+  margin-bottom:10%;
+ }
+
+ .app-container{
+  flex-direction: column;
+  align-items: center;
+  align-items: space-between ;
+}
+
+.forecast .title{
+  margin-top: 2em;
+}
+
+
+
+}

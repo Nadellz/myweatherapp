@@ -1,0 +1,67 @@
+.current-city{
+    max-width: fit-content;
+    background-color: #272B32;
+    border-radius: 25px;
+    color: aliceblue;
+    padding:1.5em;
+    text-align: left;
+    margin: 2em auto;
+    font-size: small;
+    
+}
+
+
+
+.current-city .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:1em;
+}
+
+.current-city img{
+    margin-left:1em;
+}
+
+
+.current-city .city-name{
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin:0;
+}
+
+.current-city .bot{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+
+}
+
+.current-city .bot .current-city-informations{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    
+}
+
+
+.current-city .bot .degree{
+    font-weight: bolder;
+    font-size: 4em;
+    align-self:stretch;
+   
+
+}
+
+ul li{
+    list-style: none;
+}
+
+.current-city .bot .current-city-informations .informations-name ul{
+    padding-left: 0;
+  }
+
+
+

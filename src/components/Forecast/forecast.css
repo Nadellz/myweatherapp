@@ -1,0 +1,60 @@
+.forecast{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.forecast .alert{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.forecast .title{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.forecast .day img{
+    padding-right: 5%;
+}
+
+.forecast .daily-details-grid-item{
+    font-style: italic;
+    
+}
+
+.forecast .daily-details-grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast .alert:hover{
+    color: white;
+    background-color: #272B32;
+    transition: 0.5s;
+    cursor: cell;
+}
+
+.forecast .alert .day label{
+    cursor: cell;
+}
+
+.forecast .alert img{
+    cursor: cell;
+}
+
+.forecast .alert .description{
+    cursor: cell;
+}
+
+.forecast .alert .min-max{
+    cursor: cell;
+}
+
